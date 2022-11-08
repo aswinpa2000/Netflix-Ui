@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    background: url('netflix-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 650px;
+
+}
+
+.logo-part img{
+    width: 158px;
+    height: 45px;
+    margin-left: 40px;
+    margin-top: 24px;
+}
+.button{
+    display: flex;
+    float: right;
+    margin-right: 80px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.lang-btn{
+    display: flex;
+    background-color: rgb(20, 19, 19);
+    color: White;
+    height: 41px;
+    width: 90px;
+    border-radius: 3px;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Sign-in-btn{
+    display: flex;
+    background-color: red;
+    color: White;
+    height: 37px;
+    width: 90px;
+    border-radius: 4px;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+
+}
+
+.first-line {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    margin-left: 422px;
+    margin-top: 100px;
+    
+
+
+}
+.second-line {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin-left: 488px;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: -3px;
+    line-height: 54px;
+}
+
+.third-line{
+    color: white;
+    margin-left: 470px;
+    font-weight: 500;
+    line-height: 90px;
+    font-size: 31px;
+
+}
+
+.fourth-line{
+    color: white;
+    margin-left: 352px;
+    font-weight: 500;
+    line-height: 16px;
+    font-size: 23px;
+
+
+}
+.input-section{
+    margin-top: 35px;
+    margin-left: 318px;
+    
+}
+.input-field{
+    width: 565px;
+    height: 72px;
+    font-size: 21px;
+    padding-left: 10px;
+}
+.get-started-btn{
+    width: 203px;
+    height: 70px;
+    background-color: rgb(199, 9, 9);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 25px;
+    margin-top: 2px;
+    
+
+}
+.get-started-btn:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.sub-div{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    border-top: 8px solid rgb(167, 165, 165);
+    
+
+}
+
+.heading{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 54px;
+    font-weight: bold;
+    margin-left: 115px;
+    margin-top: 120px;
+}
+.sub-heading{
+    color: white;
+    font-size: 31px;
+    font-weight: 500;
+    margin-left: 115px;
+    line-height: 47px;
+    
+
+}
+.main-heading{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 54px;
+    font-weight: bold;
+    margin-left: 720px;
+    margin-top: 120px;
+
+}
+
+.sub-heading-lite{
+    color: white;
+    font-size: 31px;
+    font-weight: 500;
+    margin-left: 720px;
+    line-height: 47px;
+    
+}
+
+.image-1{
+    width: 321px;
+    height: 230px;
+    float: right;
+    margin-right: 130px;
+    margin-top: 126px;
+
+}
+.image-2{
+    width: 346px;
+    height: 256px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 70px;
+
+}
+.image-3{
+    width: 350px;
+    height: 257px;
+    float: right;
+    margin-right: 130px;
+    margin-top: 126px;
+
+}
+
+.image-4{
+    width: 376px;
+    height: 273px;
+    float: left;
+    margin-top: 108px;
+    margin-left: 115px;
+
+}
+.questions{
+    background-color: black;
+    height: 820px;
+    border-top: 8px solid rgb(167, 165, 165);
+    border-bottom: 8px solid rgb(167, 165, 165);
+}
+
+.frequent-questions{
+    color:white;
+    font-size: 54px;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-left: 300px;
+
+}
+.question-wrapper{
+    width: 804px;
+    height: 73px;
+    margin-left: 260px;
+    background-color: rgb(65, 63, 63);
+    margin-top:10px;
+    display: flex;
+}
+
+.question-1{
+    color:white;
+    font-size: 28px;
+    font-weight:500;
+    padding-top: 13px;
+    padding-left: 10px;
+
+}
+
+.footer-quote{
+    color: white;
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 321px;
+    margin-top: 40px;
+}
+
+.input-field-last{
+    width: 550px;
+    height: 64px;
+    font-size: 21px;
+    border: none;
+    margin-left: 294px;
+    margin-top: 15px;
+    padding-left: 15px;
+
+}
+.membership-btn{
+    background-color: rgb(199, 9, 9);
+    color: white;
+    width: 173px;
+    height: 62px;
+    border: none;
+    border-radius: 2px;
+    font-size: 25px;
+    margin-left: 1px;
+    margin-top: 15px;
+
+}
+
+.membership-btn:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.footer{
+    height: 450px;
+    background-color: rgb(12, 12, 12);
+}
+.question-call{
+    color: gray;
+    font-size: 18px;
+    margin-left: 223px;
+    padding-top: 40px;
+}
+.footer-controls{
+    margin-left: 145px;
+    line-height: 43px;
+    margin-top: 30px;
+
+}
+
+.footer-controls a{
+    color: gray;
+    margin-left: 80px;
+    text-decoration: none;
+
+}
+.footer-controls a:hover{
+    color: gray;
+    margin-left: 80px;
+    text-decoration: underline;
+
+}
+.last-lang-btn{
+
+    background-color: rgb(27, 25, 25);
+    color: rgb(136, 128, 128);
+    height: 54px;
+    width: 120px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    margin-left: 227px;
+    margin-top: 30px;
+    font-size: 14px;
+
+}
+
+.netflix-india{
+    font-size: 14px;
+    color: gray;
+    margin-left: 227px;
+    margin-top: 30px;
+}
